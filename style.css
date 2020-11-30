@@ -81,7 +81,7 @@ body{
 
 .fildar{
     margin: 40px;
-    margin-top: -20px;
+    margin-top: 20px;
     color: white;
     font-weight: bold;
 }
@@ -146,6 +146,32 @@ body{
 #sortie{
     font-size: 1em;
     color: gray;
+    line-height: 46px;
+}
+
+
+.conteneur4{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteneur4 p, input{
+    margin-left: 20px;
+}
+
+.conteneur4 input{
+    margin-top: 23px;
+    height: 30px;
+    border-radius: 5px;
+    background:  #ff572e;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid gray;
+}
+
+.conteneur4 #prix{
+    margin-left: 220px;
+    color:  #ff572e;
 }
 /**/
 

@@ -34,15 +34,20 @@ $article = $articles[1];
                         <div class="conteneur3">
 
                             <p>Synopsis : Marvel's Spider-Man : Miles Morales est un jeu d'action sur PS5. Vous y incarnez Miles Morales, nouveau porteur du costume de Spider-Man. Ce standalone n'est pas la véritable suite de Marvel's Spider-Man, mais reste une nouvelle aventure vous permettant de profiter des pouvoirs de l'homme-araignée en sautant de toit en toit.</p>
-                            <p id="sortie">Sortie : 19 nov. 2020</p>
+                            
+                            <div class="conteneur4">  
+                                <p id="sortie">Sortie : 19 nov. 2020</p>
+                                <p id="prix">Prix : 69,90€</p>
+                                <input type="submit" value="Ajouter au panier">
+                            </div>  
 
                         </div>
                 </div>
             </div>
 
-            <p id="preview"><a href="https://www.jeuxvideo.com/videos/1315904/marvel-s-spider-man-miles-morales-classique-mais-toujours-aussi-accrocheur.htm">Video preview</p></a>
+            <p id="preview"><a href="https://www.jeuxvideo.com/videos/1315904/marvel-s-spider-man-miles-morales-classique-mais-toujours-aussi-accrocheur.htm">► Video preview</a></p>
 
-            <input type="submit" value="Ajouter au panier">
+            
 
         </article>
         

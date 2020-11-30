@@ -35,16 +35,22 @@ $article = $articles[0];
                         <div class="conteneur3">
 
                             <p>Synopsis : Cyberpunk 2077 est un jeu de rôle futuriste et dystopique inspiré du jeu de rôle papier du même nom. Dans un monde devenu indissociable de la cybernétique, l'indépendance des robots humanoïdes pose quelques problèmes...</p>
-                            <p>Sortie : 10 déc. 2020</p>
+                            
+                            
+                            <div class="conteneur4">
+                                <p id="sortie">Sortie : 10 déc. 2020</p>
+                                <p id="prix">Prix : 69,90€</p>
+                                <input type="submit" value="Ajouter au panier">
+                            </div>
 
                         </div>
                 </div>
 
             </div>
 
-            <p id="preview"><a href="https://www.jeuxvideo.com/videos/1326131/cyberpunk-2077-nos-dernieres-impressions-apres-15-heures-de-jeu.htm">Video preview</p></a>
+            <p id="preview"><a href="https://www.jeuxvideo.com/videos/1326131/cyberpunk-2077-nos-dernieres-impressions-apres-15-heures-de-jeu.htm">Video preview</a></p>
 
-            <input type="submit" value="Ajouter au panier">
+            
 
         </article>
 
