@@ -43,18 +43,18 @@
 <body>
 <header>
 
-                <img src="images/jeuxvideocomlogo.png" alt="logo jeuxvideo.com" id="logo_accueil">
+        <img src="images/jeuxvideocomlogo.png" alt="logo jeuxvideo.com" id="logo_accueil">
 
 
-                <div class="li_haut">
-                    <ul>
-                        <li><a href="index.php?page=page1">Accueil</li></a>
-                        <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
-                        <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
-                    </ul>
-                </div>
-                
-            </header>
+        <div class="li_haut">
+            <ul>
+                <li><a href="index.php?page=page1">Accueil</li></a>
+                <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
+                <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
+            </ul>
+        </div>
+        
+    </header>
 
            
             <?php require $tabArticle ?>

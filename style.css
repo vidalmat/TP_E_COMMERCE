@@ -4,6 +4,19 @@ body{
     background: #004365;
 }
 
+#titre_accueil{
+    position: relative;
+    color: white;
+    margin-bottom: -90px;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fond_accueil{
+    width: 100%;
+}
+
 #logo_accueil{
     width: 100%;
     background: white;
@@ -128,15 +141,15 @@ body{
     font-weight: bold;
     color: rgb(77, 77, 77);
 }
+
+
+#sortie{
+    font-size: 1em;
+    color: gray;
+}
 /**/
 
-/* Page 3 */
 
-
-
-
-
-/**/
 
 
 #preview{
