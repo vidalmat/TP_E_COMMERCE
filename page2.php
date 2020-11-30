@@ -37,9 +37,9 @@
 
             </header>
 
-            <p class="fildar">jeuxvideo.com/ accueil /<span></span> Cyberpunk 2077</span></p>
-
             <article>
+
+                <p class="fildar">jeuxvideo.com / accueil /<span></span> Cyberpunk 2077</span></p>
 
                 <div class="conteneur1">
                     <img src="images/cyber-punk-2077.jpg" alt="Cyberpunk">

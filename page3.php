@@ -38,9 +38,9 @@
 
             </header>
 
-            <p class="fildar">jeuxvideo.com/  accueil /<span> Spider-man</span></p>
-
             <article>
+
+                <p class="fildar">jeuxvideo.com /  accueil /<span> Spider-man</span></p>
 
                 <div class="conteneur1">
                     <img src="images/spider_man.jpg" alt="Spider-man">
@@ -49,7 +49,7 @@
             
                         <div class="conteneur2">
                             <p>test<br>16</p>
-                            <span></span>
+                            <span class="span"></span>
                             <p>avis<br>15.8</p>
                         </div>
 
