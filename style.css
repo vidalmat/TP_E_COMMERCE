@@ -77,17 +77,42 @@ body{
     width: 50%;
 }
 
+.conteneur2_3{
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+
 .conteneur2{
     display: flex;
-
-
 }
+
+.conteneur2 p{
+    margin-left: 120px;
+    border: 10px solid #e0e0e0;
+    color: #ff572e;
+    width:160px;
+    height:160px;
+    font-size: 2em;
+    border-radius: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 75px;
+}
+
 
 .conteneur3{
     display: flex;
     flex-direction: column;
 }
 
+
+.conteneur3 p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
 /**/
 
 /* Page 3 */
@@ -97,3 +122,21 @@ body{
 
 
 /**/
+
+
+#preview{
+    background: #ff572e;
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 31px;
+    border: 0.5px solid white;
+    color: white;
+}
+
+#preview a{
+    text-decoration: none;
+    color: white;
+}
