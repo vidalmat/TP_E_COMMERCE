@@ -35,6 +35,11 @@ body{
     color: white;
 }
 
+.li_haut a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 
 /*Page 2 */
 
@@ -80,6 +85,14 @@ body{
 .conteneur2_3{
     flex-direction: row;
     margin-left: 20px;
+}
+
+.span{
+    background: #e0e0e0;
+    border: 3px solid #e0e0e0;
+    height: 150px;
+    margin: 45px;
+    margin-right: -78px;
 }
 
 
