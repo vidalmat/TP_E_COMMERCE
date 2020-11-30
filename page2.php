@@ -1,5 +1,13 @@
 <?php
 
+require_once "articles.php";
+
+$html = "";
+
+
+
+$html .= "<img src=" . $articles[0]["img"] . "alt="Cyberpunk"";
+$html .= "<p class=\"paragraphe\">" . substr($articles[0]["Description"], 0, 20) . "..." . "</p>";
 
 
 ?>
@@ -67,6 +75,8 @@
                 <input type="submit" value="Ajouter au panier">
 
             </article>
+
+            <?= $html?>
         
     </body>
 

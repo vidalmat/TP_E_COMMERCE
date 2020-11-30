@@ -104,6 +104,7 @@ body{
 .conteneur2 p{
     margin-left: 120px;
     border: 10px solid #e0e0e0;
+    border-bottom: 10px solid white;
     color: #ff572e;
     width:160px;
     height:160px;
