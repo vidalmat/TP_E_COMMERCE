@@ -42,7 +42,7 @@ $array2 = [
   </tr>
   <tr>
     <td>Laetitia Perez</td>
-    <td>1</td>
+    <td>2</td>
     <td>SPIDERMAN MILES MORALES</td>
     <td>1</td>
     <td class="prix">69.90€</td>

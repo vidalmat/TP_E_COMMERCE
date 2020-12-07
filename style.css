@@ -41,7 +41,6 @@ body{
     background: #ff572e;
     font-size: 1.5em;
     text-transform: uppercase;
-    
 }
 
 .li_haut li{
@@ -256,7 +255,7 @@ body{
     background: rgb(206, 205, 205);
     border-radius: 4px;
     border: 1px solid gray;
-    margin-left: 05px;
+    margin-left: 5px;
     line-height: 20px;
 }
 
