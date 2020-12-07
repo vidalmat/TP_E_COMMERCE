@@ -3,35 +3,7 @@
 
 require_once "articles.php";
 
-// session_start();
-// /* Initialisation du panier */
-// $_SESSION['panier'] = array();
-// /* Subdivision du panier */
-// $_SESSION['panier']['id_article'] = array();
-// $_SESSION['panier']['qte'] = array();
-// $_SESSION['panier']['prix'] = array();
 
-
-// $select = array();
-// $select['id'] = "cyberpunk";
-// $select['qte'] = 10;
-// $select['prix'] = 69.90;
-
-// $select = array();
-// $select['id'] = "spiderman";
-// $select['qte'] = 10;
-// $select['prix'] = 69.90;
-
-// function creationPanier(){
-//     if (!isset($_SESSION['panier'])){
-//        $_SESSION['panier']=array();
-//        $_SESSION['panier']['id'] = array();
-//        $_SESSION['panier']['qte'] = array();
-//        $_SESSION['panier']['prix'] = array();
-//        $_SESSION['panier']['verrou'] = false;
-//     }
-//     return true;
-//  }
 
 $array1 = [
     "id" => "cyberpunk",
@@ -65,7 +37,7 @@ var_dump($_SESSION);
   <tr>
     <th>Jean Dupont</th>
     <th>1</th>
-    <th>CYBERPUNK 2077</th>
+    <th>CYBERPUNK 2077 <em>New</em></th>
     <th>1</th>
     <th class="prix">69.90€</th>
   </tr>
@@ -92,6 +64,13 @@ var_dump($_SESSION);
   </tr>
   <tr>
       <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th class="prix"></th>
+  </tr>
+  <tr>
+      <th scope="3" class="total" >TOTAL</th>
       <th></th>
       <th></th>
       <th></th>

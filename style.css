@@ -305,6 +305,12 @@ th{
     color: #ff6123;
 }
 
+em{
+    background: red;
+    color: white;
+    border-radius: 3px;
+}
+
 
 
 
