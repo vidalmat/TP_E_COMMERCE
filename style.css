@@ -239,6 +239,9 @@ body{
 .connexion input{
     background: rgb(206, 205, 205);
     border-radius: 4px;
+    border: 1px solid gray;
+    margin-left: 5px;
+    line-height: 20px;
 }
 
 
@@ -259,10 +262,50 @@ body{
     background: #8a8a92;
     height: 30px;
     color: white;
+    border: 1px solid gray;
     border-radius: 5px;
     margin-left: 100px;
     font-size: 1em;
     font-weight: bold;
 }
+
+/**/
+
+
+/* Page panier */
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 200px;
+    padding: 120px;
+    margin: 200px;
+}
+
+td, th{
+    border: 2px solid #004365;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+td{
+    font-size: 1.8em;
+    background: #8a8a92;
+}
+
+th{
+    background: white;
+    color: #004365;
+    font-size: 1.3em;
+}
+
+
+.prix{
+    color: #ff6123;
+}
+
+
+
 
 /**/
