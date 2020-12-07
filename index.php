@@ -1,5 +1,12 @@
 <?php
 
+session_start();
+
+
+$_SESSION['utilisateur'] = "Dupont";
+
+'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
+
     // pour savoir en cas de bug (debug), afin de vérifier que tout fonctionne comme console.log
     // var_dump($_GET);
 
