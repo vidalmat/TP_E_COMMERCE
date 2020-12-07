@@ -10,6 +10,9 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
     // pour savoir en cas de bug (debug), afin de vérifier que tout fonctionne comme console.log
     // var_dump($_GET);
 
+    var_dump($_SESSION);
+    var_dump($_POST);
+
 
     // Structure de routage : définir la page qui sera inclue, en fonction de la valeur $_GET;["page] (choix de l'utilisateur)
     // Si $_GET["page] est défini :
@@ -26,7 +29,9 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             break;
             case "connexion" : $tabArticle = "connexion.php";
             break;
-            case "panier" : $tabArticle = "panier.php";
+            case "deconnexion" : $tabArticle = "deconnexion.php";
+            break;
+            case "panier" : $tabArticle = connect();
             break;
             case "vuearticle" : $tabArticle = "vuearticle.php";
             break;
@@ -38,6 +43,32 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
         $tabArticle = "page1.php";
 
     }
+
+
+    function connect(){
+
+        // il s'agira avant de vérifier le droit de l'utilisateur à se connecter au système
+
+        if(isset($_POST["email"])){
+
+            $_SESSION["user"] = $_POST["email"];
+        }
+
+        if(isset($_SESSION["user"])){
+            return "panier.php";
+        }else {
+            return "page1.php";
+        }
+
+    }
+
+
+    function deconnect(){
+        $_SESSION = [];
+        session_destroy();
+        return "page1.php";
+    }
+
 
 
 ?>

@@ -17,15 +17,13 @@ $array2 = [
     "prix" => 69.90,
 ];
 
-var_dump($array1, $array2);
-var_dump($_SESSION);
 
 
 
 ?>
+<p class="fildar">jeuxvideo.com / accueil /<span></span> panier</span></p>
 
-
-
+<h2>Bonjour <?php $_SESSION["user"]?></h2>
 <table>
   <tr>
     <td>Nom</td>
@@ -70,7 +68,7 @@ var_dump($_SESSION);
       <th class="prix"></th>
   </tr>
   <tr>
-      <th scope="3" class="total" >TOTAL</th>
+      <th scope="3" class="total">TOTAL</th>
       <th></th>
       <th></th>
       <th></th>

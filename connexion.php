@@ -17,13 +17,16 @@ require_once "articles.php";
 
         <p class="parconnexion">Vous tentez d'accéder à un contenu qui nécessite que vous soyez connecté(e).</p>
 
-        <form action="connexion.php" method="POST">
-            <h1><img src="images/fleche_bas.png" alt="fleche bas">Se connecter</h1>
+        <form action="index.php?page=panier" method="POST">
             
-                <input type="text" placeholder="Pseudo" name="username" required>
-
-                <input type="password" placeholder="Mot de passe" name="password" required >
-
+            <?php if(!isset($_SESSION["user"])): ?>
+                <h1><img src="images/fleche_bas.png" alt="fleche bas">Se connecter</h1>
+            
+                <input type="email" placeholder="Email" name="email" required>
+                
+                <?php else: ?>
+                    <input type="password" placeholder="Mot de passe" name="password" required >
+                <?php endif ?>
             <input type="submit" id='submit' value='LOGIN' >
         </form>
     </div>
