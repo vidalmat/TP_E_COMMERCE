@@ -40,7 +40,10 @@ $article = $articles[0];
                             <div class="conteneur4">
                                 <p id="sortie">Sortie : 10 déc. 2020</p>
                                 <p id="prix">Prix : 69,90€</p>
-                                <input type="submit" value="Ajouter au panier">
+
+                                <form action="panier.php" method="POST">
+                                    <input type="submit" value="Ajouter au panier">
+                                </form>
                             </div>
 
                         </div>

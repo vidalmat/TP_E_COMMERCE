@@ -5,7 +5,7 @@ session_start();
 
 $_SESSION['utilisateur'] = "Dupont";
 
-'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
+echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
 
     // pour savoir en cas de bug (debug), afin de vérifier que tout fonctionne comme console.log
     // var_dump($_GET);
@@ -63,7 +63,7 @@ $_SESSION['utilisateur'] = "Dupont";
                 <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
                 <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
                 <li><a href="index.php?page=page4">Mon compte</li></a>
-                <li><a href="index.php?page=page5">Panier</li></a>
+                <li><a href="index.php?page=page5"> Panier</li></a>
             </ul>
         </div>
         
