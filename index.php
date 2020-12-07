@@ -24,6 +24,10 @@ $_SESSION['utilisateur'] = "Dupont";
             break;
             case "page3" : $tabArticle = "page3.php";
             break;
+            case "page4" : $tabArticle = "connexion.php";
+            break;
+            case "page5" : $tabArticle = "panier.php";
+            break;
             case "vuearticle" : $tabArticle = "vuearticle.php";
             break;
             default : $tabArticle = "page1.php";              /* solution par défaut en cas d'un choix non prévu */
@@ -58,6 +62,8 @@ $_SESSION['utilisateur'] = "Dupont";
                 <li><a href="index.php?page=page1">Accueil</li></a>
                 <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
                 <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
+                <li><a href="index.php?page=page4">Mon compte</li></a>
+                <li><a href="index.php?page=page5">Panier</li></a>
             </ul>
         </div>
         

@@ -33,14 +33,14 @@ body{
     margin-top: 10px;
     list-style-type: none;
     background: #ff572e;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     
 }
 
 .li_haut li{
     line-height: 70px;
-    margin-left: 140px;
+    margin-left: 90px;
 }
 
 .li_haut a{
@@ -194,3 +194,34 @@ body{
     text-decoration: none;
     color: white;
 }
+
+
+
+/* page connexion */
+
+.connexion{
+    display: inline-block;
+    background: white;
+    height: 100px;
+    width: 50%;
+    margin-left: 25px;
+    padding-left: 55px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid  #ff572e;
+}
+
+.connexion #submit{
+    background: #ff572e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.connexion #input{
+    
+}
+
+
+
+/**/
