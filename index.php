@@ -33,6 +33,8 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             break;
             case "panier" : $tabArticle = connect();
             break;
+            case "panier" : $tabArticle = ajoutPanier();
+            break;
             case "vuearticle" : $tabArticle = "vuearticle.php";
             break;
             default : $tabArticle = "page1.php";              /* solution par défaut en cas d'un choix non prévu */
@@ -69,6 +71,24 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
         return "page1.php";
     }
 
+
+    // function ajoutPanier(){
+
+    //     $article = $_GET['art'];
+
+    //     if(isset($_SESSION['panier'])){
+    //         //  j'ajoute mon produit
+    //         array_push($_SESSION['panier'], $article)
+    //     }else{
+    //         $_SESSION['panier'] = [];
+    //         // et ajouter le produit
+    //         array_push($_SESSION['panier'], $article);
+    //     }
+        
+    //     return "page1.php"
+        
+
+    // }
 
 
 ?>

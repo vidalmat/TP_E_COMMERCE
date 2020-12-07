@@ -15,7 +15,7 @@ $article = $articles[0];
             <div class="conteneur_header">
                 
                 <h1 class="titre_header">Cyberpunk 2077</h1>
-                <h2 class="sous_titre_header">Tout support PC PS4 PS5 ONE</h2>
+                <h2 class="sous_titre_header">Tout support <a href="#">PC</a><a href="#"> PS4</a><a href="#"> PS5</a><a href="#"> ONE</a></h2>
 
             </div>
 
@@ -42,7 +42,7 @@ $article = $articles[0];
                                 <p id="prix">Prix : 69,90€</p>
 
                                 <form action="panier.php" method="POST">
-                                    <input type="submit" value="Ajouter au panier">
+                                    <input type="submit"  value="Ajouter au panier">
                                 </form>
                             </div>
 

@@ -14,7 +14,7 @@ $article = $articles[1];
             <div class="conteneur_header">
             
                 <h1 class="titre_header">Marvel's Spider-Man : Miles Morales</h1>
-                <h2 class="sous_titre_header">Tout support PS4 PS5</h2>
+                <h2 class="sous_titre_header">Tout support<a href="#"> PS4</a><a href="#"> PS5</a><a href="#"> ONE</a></h2>
 
             </div>
 

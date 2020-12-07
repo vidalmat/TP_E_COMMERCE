@@ -23,7 +23,7 @@ $array2 = [
 ?>
 <p class="fildar">jeuxvideo.com / accueil /<span></span> panier</span></p>
 
-<h2 class="bonjour">Bonjour <?= $_SESSION["utilisateur"]?></h2>
+<h2 class="bonjour">Bonjour Mr <?= $_SESSION["utilisateur"]?></h2>
 
 <table>
   <tr>
