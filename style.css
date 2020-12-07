@@ -200,17 +200,33 @@ body{
 
 /* page connexion */
 
+.conteneur_connexion{
+    display: flex;
+    background: #f2f2f2;
+
+}
+
+
+.connexion img{
+    width: 3%;
+}
+
+.connexion h1{
+    color: #ff6123;
+}
+
+.parconnexion{
+    color: #ff6123;
+    margin-left: -41px;
+}
+
 .connexion{
-    display: inline-block;
-    background: white;
     color: #004365;
     height: 100px;
     width: 50%;
-    margin-left: 25px;
+    margin-left: 120px;
     padding-left: 55px;
     line-height: 20px;
-    border-radius: 10px;
-    border: 2px solid  #ff572e;
 }
 
 .connexion #submit{
@@ -226,5 +242,27 @@ body{
 }
 
 
+.span2{
+    background: #838282;
+    border: 1px solid #838282;
+    height: 50px;
+    margin: 45px;
+    margin-left: -100px;
+}
+
+.creation_compte{
+    margin-left: 150px;
+    color: #8a8a92;
+}
+
+.creation_compte input{
+    background: #8a8a92;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    font-size: 1em;
+    font-weight: bold;
+}
 
 /**/

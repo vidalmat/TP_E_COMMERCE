@@ -24,9 +24,9 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             break;
             case "page3" : $tabArticle = "page3.php";
             break;
-            case "page4" : $tabArticle = "connexion.php";
+            case "connexion" : $tabArticle = "connexion.php";
             break;
-            case "page5" : $tabArticle = "panier.php";
+            case "panier" : $tabArticle = "panier.php";
             break;
             case "vuearticle" : $tabArticle = "vuearticle.php";
             break;
@@ -62,8 +62,8 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
                 <li><a href="index.php?page=page1">Accueil</li></a>
                 <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
                 <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
-                <li><a href="index.php?page=page4">Mon compte</li></a>
-                <li><a href="index.php?page=page5"> Panier</li></a>
+                <li><a href="index.php?page=connexion">Mon compte</li></a>
+                <li><a href="index.php?page=panier"> Panier</li></a>
             </ul>
         </div>
         

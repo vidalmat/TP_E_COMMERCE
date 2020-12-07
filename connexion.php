@@ -9,19 +9,33 @@ require_once "articles.php";
 
 ?>
 
+<p class="fildar">jeuxvideo.com / accueil /<span></span> connexion</span></p>
 
-<div class="connexion">
+<div class="conteneur_connexion">
 
-    <form action="connexion.php" method="POST">
-        <h1>Connexion</h1>
-        
-        <label><b>Nom d'utilisateur</b></label>
-            <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+    <div class="connexion">
 
-        <label><b>Mot de passe</b></label>
-            <input type="password" placeholder="Entrer le mot de passe" name="password" required >
+        <p class="parconnexion">Vous tentez d'accéder à un contenu qui nécessite que vous soyez connecté(e).</p>
 
-        <input type="submit" id='submit' value='LOGIN' >
-    </form>
+        <form action="connexion.php" method="POST">
+            <h1><img src="images/fleche_bas.png" alt="fleche bas">Se connecter</h1>
+            
+                <input type="text" placeholder="Pseudo" name="username" required>
 
+                <input type="password" placeholder="Mot de passe" name="password" required >
+
+            <input type="submit" id='submit' value='LOGIN' >
+        </form>
+    </div>
+
+    <span class="span2"></span>
+            
+    <div class="creation_compte">
+                <form action="connexion.php" method="POST">
+                    <h2>Vous n'avez pas de compte?</h2>
+
+                    <input type="submit" id='submit' value='Créer un compte' >
+                </form>
+            </div>
+    
 </div>

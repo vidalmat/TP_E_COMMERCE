@@ -3,13 +3,13 @@
 
 require_once "articles.php";
 
-session_start();
-/* Initialisation du panier */
-$_SESSION['panier'] = array();
-/* Subdivision du panier */
-$_SESSION['panier']['id_article'] = array();
-$_SESSION['panier']['qte'] = array();
-$_SESSION['panier']['prix'] = array();
+// session_start();
+// /* Initialisation du panier */
+// $_SESSION['panier'] = array();
+// /* Subdivision du panier */
+// $_SESSION['panier']['id_article'] = array();
+// $_SESSION['panier']['qte'] = array();
+// $_SESSION['panier']['prix'] = array();
 
 
 // $select = array();
