@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "articles.php";
+require_once "panier.php";
 
 
 

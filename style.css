@@ -4,6 +4,10 @@ body{
     background: #004365;
 }
 
+#zelda{
+    width: 100%;
+}
+
 #titre_accueil{
     position: relative;
     color: white;
@@ -30,8 +34,9 @@ body{
 
 .li_haut ul{
     display: flex;
+    position: relative;
     height: 70px;
-    margin-top: 10px;
+    margin-top: 0;
     list-style-type: none;
     background: #ff572e;
     font-size: 1.5em;

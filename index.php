@@ -87,6 +87,8 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
 
         <img src="images/jeuxvideocomlogo.png" alt="logo jeuxvideo.com" id="logo_accueil">
 
+        <img src="images/fond_header" alt="fond du header" id="zelda">
+
 
         <div class="li_haut">
             <ul>
