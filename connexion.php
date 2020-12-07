@@ -19,11 +19,11 @@ require_once "articles.php";
 
         <form action="index.php?page=panier" method="POST">
             
-            <?php if(!isset($_SESSION["user"])): ?>
+            <?php if(!isset($_SESSION["utilisateur"])): ?>
                 <h1><img src="images/fleche_bas.png" alt="fleche bas">Se connecter</h1>
             
                 <input type="email" placeholder="Email" name="email" required>
-                
+
                 <?php else: ?>
                     <input type="password" placeholder="Mot de passe" name="password" required >
                 <?php endif ?>

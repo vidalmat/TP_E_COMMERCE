@@ -51,10 +51,10 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
 
         if(isset($_POST["email"])){
 
-            $_SESSION["user"] = $_POST["email"];
+            $_SESSION["utilisateur"] = $_POST["email"];
         }
 
-        if(isset($_SESSION["user"])){
+        if(isset($_SESSION["utilisateur"])){
             return "panier.php";
         }else {
             return "page1.php";
