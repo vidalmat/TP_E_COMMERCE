@@ -23,55 +23,54 @@ $array2 = [
 ?>
 <p class="fildar">jeuxvideo.com / accueil /<span></span> panier</span></p>
 
-<h2>Bonjour <?php $_SESSION["utilisateur"]?></h2>
+<h2 class="bonjour">Bonjour <?= $_SESSION["utilisateur"]?></h2>
+
 <table>
   <tr>
-    <td>Nom</td>
-    <td>Référence</td>
-    <td>Articles</td>
-    <td>Quantités</td>
-    <td>Prix</td>
+    <th>Nom</th>
+    <th>Référence</th>
+    <th>Articles</th>
+    <th>Quantités</th>
+    <th>Prix</th>
   </tr>
   <tr>
-    <th>Jean Dupont</th>
-    <th>1</th>
-    <th>CYBERPUNK 2077 <em>New</em></th>
-    <th>1</th>
-    <th class="prix">69.90€</th>
+    <td>Jean Dupont</td>
+    <td>1</td>
+    <td>CYBERPUNK 2077 <em>New</em></td>
+    <td>1</td>
+    <td class="prix">69.90€</td>
   </tr>
   <tr>
-    <th>Laetitia Perez</th>
-    <th>1</th>
-    <th>SPIDERMAN MILES MORALES</th>
-    <th>1</th>
-    <th class="prix">69.90€</th>
+    <td>Laetitia Perez</td>
+    <td>1</td>
+    <td>SPIDERMAN MILES MORALES</td>
+    <td>1</td>
+    <td class="prix">69.90€</td>
   </tr>
   <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th class="prix"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="prix"></td>
   </tr>
   <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th class="prix"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="prix"></td>
   </tr>
   <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th class="prix"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="prix"></td>
   </tr>
   <tr>
-      <th scope="3" class="total">TOTAL</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th class="prix"></th>
+      <td colspan="4" class="total">TOTAL</td>
+      <td></td>
+      <td</td>
   </tr>
 </table>
