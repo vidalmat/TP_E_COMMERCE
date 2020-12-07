@@ -15,9 +15,9 @@ function ajouterArticle($id,$qte,$prix){
        else
        {
           //Sinon on ajoute le produit
-          array_push( $_SESSION['panier']['libelleProduit'],$id);
-          array_push( $_SESSION['panier']['qteProduit'],$qte);
-          array_push( $_SESSION['panier']['prixProduit'],$prix);
+          array_push( $_SESSION['panier']['id'],$id);
+          array_push( $_SESSION['panier']['qte'],$qte);
+          array_push( $_SESSION['panier']['prix'],$prix);
        }
     }
     else
