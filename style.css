@@ -202,6 +202,7 @@ body{
 .connexion{
     display: inline-block;
     background: white;
+    color: #004365;
     height: 100px;
     width: 50%;
     margin-left: 25px;
@@ -219,7 +220,7 @@ body{
 }
 
 .connexion #input{
-    
+
 }
 
 
