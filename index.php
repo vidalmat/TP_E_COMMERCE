@@ -120,7 +120,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             </ul>
         </div>
         
-    </header>
+</header>
 
            
             <?php require $tabArticle ?>
