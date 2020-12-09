@@ -11,7 +11,6 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
     // var_dump($_GET);
 
     var_dump($_SESSION);
-    var_dump($_POST);
 
 
     // Structure de routage : définir la page qui sera inclue, en fonction de la valeur $_GET;["page] (choix de l'utilisateur)
@@ -72,23 +71,23 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
     }
 
 
-    // function ajoutPanier(){
+    function ajoutPanier(){
 
-    //     $article = $_GET['art'];
+        $article = $_GET['art'];
 
-    //     if(isset($_SESSION['panier'])){
-    //         //  j'ajoute mon produit
-    //         array_push($_SESSION['panier'], $article)
-    //     }else{
-    //         $_SESSION['panier'] = [];
-    //         // et ajouter le produit
-    //         array_push($_SESSION['panier'], $article);
-    //     }
+        if(isset($_SESSION['panier'])){
+            //  j'ajoute mon produit
+            array_push($_SESSION['panier'], $article);
+        }else{
+            $_SESSION['panier'] = [];
+            // et ajouter le produit
+            array_push($_SESSION['panier'], $article);
+        }
         
-    //     return "page1.php"
+        return "page1.php";
         
 
-    // }
+    }
 
 
 ?>

@@ -1,20 +1,19 @@
 <?php
 
-
-require_once "panier.php";
+require_once "index.php";
 
 
 
 $array1 = [
     "id" => "cyberpunk",
     "qte" => 10,
-    "prix" => 69.90,
+    "prix" => 69.90
 ];
 
 $array2 = [
     "id" => "spiderman",
     "qte" => 8,
-    "prix" => 69.90,
+    "prix" => 69.90
 ];
 
 

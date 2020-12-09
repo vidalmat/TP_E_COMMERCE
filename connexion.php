@@ -17,7 +17,7 @@ require_once "articles.php";
 
         <p class="parconnexion">Vous tentez d'accéder à un contenu qui nécessite que vous soyez connecté(e).</p>
 
-        <form action="index.php?page=panier" method="POST">
+        <form action="index.php?panier=art" method="POST">
             
                 <h1><img src="images/fleche_bas.png" alt="fleche bas">Se connecter</h1>
             
