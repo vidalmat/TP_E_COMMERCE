@@ -20,7 +20,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
         $tabArticle = $_GET["page"].".php";
 
         switch($_GET["page"]) {
-            case "page1" : $tabArticle = "page1.php";
+            case "accueil" : $tabArticle = "accueil.php";
             break;
             case "page2" : $tabArticle = "page2.php";
             break;
@@ -36,12 +36,12 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             break;
             case "vuearticle" : $tabArticle = "vuearticle.php";
             break;
-            default : $tabArticle = "page1.php";              /* solution par défaut en cas d'un choix non prévu */
+            default : $tabArticle = "accueil.php";              /* solution par défaut en cas d'un choix non prévu */
         }
 
     }else {
 
-        $tabArticle = "page1.php";
+        $tabArticle = "accueil.php";
 
     }
 
@@ -58,7 +58,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
         if(isset($_SESSION["utilisateur"])){
             return "panier.php";
         }else {
-            return "page1.php";
+            return "accueil.php";
         }
 
     }
@@ -67,7 +67,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
     function deconnect(){
         $_SESSION = [];
         session_destroy();
-        return "page1.php";
+        return "accueil.php";
     }
 
 
@@ -84,7 +84,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
             array_push($_SESSION['panier'], $article);
         }
         
-        return "page1.php";
+        return "accueil.php";
         
 
     }
@@ -111,7 +111,7 @@ echo 'Bonjour M. ' . $_SESSION['utilisateur'] . '!';
 
         <div class="li_haut">
             <ul>
-                <li><a href="index.php?page=page1">Accueil</li></a>
+                <li><a href="index.php?page=accueil">Accueil</li></a>
                 <li><a href="index.php?page=page2">Cyberpunk 2077</li></a>
                 <li><a href="index.php?page=page3">Spider-man Miles Morales</li></a>
                 <li><a href="index.php?page=connexion">Mon compte</li></a>
